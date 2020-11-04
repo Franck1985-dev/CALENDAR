@@ -1,0 +1,18 @@
+.table1{
+    background-color:rgb(223, 243, 45);
+    
+}
+
+.calendar{
+    width: 300px;
+    height: auto;
+    background: #fff;
+    box-sizing: border-box;
+}
+.calendar.data
+{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25px,1fr));
+
+}
